@@ -126,7 +126,7 @@ Windows 의 전원·절전 설정은 전혀 건드리지 않습니다. 프로그
 
 ## 업데이트
 
-끄지마는 자동으로 업데이트하지 **않습니다**. 실행할 때 새 버전이 있는지 확인해 안내 창을 띄우고, **[예]** 를 누르면 다운로드 페이지가 열리면서 프로그램이 종료됩니다. 새 버전은 내부 검증 후 수동으로 배포되고 [끄지마 페이지](https://v2.kilho.net/stayon)에 공지됩니다. [업데이트 정책 안내](https://kilho.net/archives/notice/2940)를 참고하세요.
+끄지마는 자동으로 업데이트하지 **않습니다**. 실행할 때 새 버전이 있는지 확인해 안내 창을 띄우고, **[예]** 를 누르면 다운로드 페이지가 열리면서 프로그램이 종료됩니다. 새 버전은 내부 검증 후 수동으로 배포되고 [끄지마 페이지](https://kilho.net/stayon)에 공지됩니다. [업데이트 정책 안내](https://kilho.net/archives/notice/2940)를 참고하세요.
 
 **버전 이력**
 
@@ -143,7 +143,7 @@ Windows 의 전원·절전 설정은 전혀 건드리지 않습니다. 프로그
 
 ## 링크
 
-- 웹사이트: <https://v2.kilho.net/stayon>
+- 웹사이트: <https://kilho.net/stayon>
 - 포럼: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 

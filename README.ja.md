@@ -128,7 +128,7 @@ StayOn は Windows の設定を変えず、管理者権限も使いません。�
 
 ## アップデート
 
-StayOn は自動的にはアップデート**しません**。起動時に新バージョンの有無を確認して案内画面を表示し、**[はい]** を押すとダウンロードページが開いてプログラムが終了します。新バージョンは内部検証の後に手動で配布され、[StayOn ページ](https://v2.kilho.net/stayon)で告知されます。[アップデートポリシー](https://en.kilho.net/archives/notice/2940)をご覧ください。
+StayOn は自動的にはアップデート**しません**。起動時に新バージョンの有無を確認して案内画面を表示し、**[はい]** を押すとダウンロードページが開いてプログラムが終了します。新バージョンは内部検証の後に手動で配布され、[StayOn ページ](https://kilho.net/stayon)で告知されます。[アップデートポリシー](https://en.kilho.net/archives/notice/2940)をご覧ください。
 
 **バージョン履歴**
 
@@ -145,7 +145,7 @@ StayOn は**フリーウェア**です。会社、自宅、官公庁、学校な
 
 ## リンク
 
-- Web サイト: <https://v2.kilho.net/stayon>
+- Web サイト: <https://kilho.net/stayon>
 - フォーラム: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 

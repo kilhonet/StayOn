@@ -128,7 +128,7 @@ The display language follows the Windows display language (Korean · English · 
 
 ## Updates
 
-StayOn does **not** update itself. At launch it checks whether a new version exists and shows a notice; pressing **Yes** opens the download page and quits the program. New versions are released manually after internal verification and announced on the [StayOn page](https://v2.kilho.net/stayon). See the [update policy notice](https://en.kilho.net/archives/notice/2940).
+StayOn does **not** update itself. At launch it checks whether a new version exists and shows a notice; pressing **Yes** opens the download page and quits the program. New versions are released manually after internal verification and announced on the [StayOn page](https://kilho.net/stayon). See the [update policy notice](https://en.kilho.net/archives/notice/2940).
 
 **Version history**
 
@@ -145,7 +145,7 @@ StayOn is **freeware**. Use it anywhere — at the office, at home, in governmen
 
 ## Links
 
-- Website: <https://v2.kilho.net/stayon>
+- Website: <https://kilho.net/stayon>
 - Forum: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 

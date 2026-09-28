@@ -130,7 +130,7 @@ O idioma da interface segue o idioma de exibição do Windows (coreano · inglê
 
 ## Atualizações
 
-O StayOn **não** se atualiza sozinho. Ao iniciar, verifica se há uma versão nova e mostra um aviso; ao pressionar **Yes**, a página de download é aberta e o programa é encerrado. As novas versões são publicadas manualmente após verificação interna e anunciadas na [página do StayOn](https://v2.kilho.net/stayon). Veja o [aviso sobre a política de atualização](https://en.kilho.net/archives/notice/2940).
+O StayOn **não** se atualiza sozinho. Ao iniciar, verifica se há uma versão nova e mostra um aviso; ao pressionar **Yes**, a página de download é aberta e o programa é encerrado. As novas versões são publicadas manualmente após verificação interna e anunciadas na [página do StayOn](https://kilho.net/stayon). Veja o [aviso sobre a política de atualização](https://en.kilho.net/archives/notice/2940).
 
 **Histórico de versões**
 
@@ -147,7 +147,7 @@ O StayOn é **freeware**. Use gratuitamente e sem restrições em qualquer lugar
 
 ## Links
 
-- Site: <https://v2.kilho.net/stayon>
+- Site: <https://kilho.net/stayon>
 - Fórum: <https://groups.google.com/g/kilhonet>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
