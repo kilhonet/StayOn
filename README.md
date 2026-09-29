@@ -45,7 +45,7 @@ Difference between the two: **Run at boot** can be turned on only in the install
 
 ## Usage
 
-### Basic flow
+### Getting started
 
 1. Launch StayOn. A **sleeping cat** appears at the bottom right of the screen, just above the taskbar.
 2. **Click** the cat. It stretches and wakes up; from now on the screen won't turn off and the PC won't sleep.

@@ -45,7 +45,7 @@ Différence entre les deux : **Lancer au démarrage** ne peut être activé que 
 
 ## Utilisation
 
-### Déroulement de base
+### Premiers pas
 
 1. Lancez StayOn. Un **chat endormi** apparaît en bas à droite de l'écran, juste au‑dessus de la barre des tâches.
 2. **Cliquez** sur le chat. Il s'étire et se réveille ; dès lors, l'écran ne s'éteint plus et le PC ne se met plus en veille.

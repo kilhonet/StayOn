@@ -47,7 +47,7 @@ Diferencia entre las dos versiones: **Run at boot** solo se puede activar en la 
 
 ## Uso
 
-### Flujo básico
+### Primeros pasos
 
 1. Inicie StayOn. Un **gato dormido** aparece en la parte inferior derecha de la pantalla, justo encima de la barra de tareas.
 2. **Haga clic** en el gato. Se estira y se despierta; a partir de ahora la pantalla no se apaga y el PC no se suspende.
