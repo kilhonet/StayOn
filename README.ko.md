@@ -144,7 +144,7 @@ Windows 의 전원·절전 설정은 전혀 건드리지 않습니다. 프로그
 ## 링크
 
 - 웹사이트: <https://kilho.net/stayon>
-- 포럼: <https://groups.google.com/g/kilhonet>
+- 포럼: <https://kilho.top/forum/qna>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
 © KILHO.NET

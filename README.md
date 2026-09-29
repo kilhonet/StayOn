@@ -146,7 +146,7 @@ StayOn is **freeware**. Use it anywhere — at the office, at home, in governmen
 ## Links
 
 - Website: <https://kilho.net/stayon>
-- Forum: <https://groups.google.com/g/kilhonet>
+- Forum: <https://kilho.top/forum/qna>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
 © KILHO.NET

@@ -148,7 +148,7 @@ O StayOn é **freeware**. Use gratuitamente e sem restrições em qualquer lugar
 ## Links
 
 - Site: <https://kilho.net/stayon>
-- Fórum: <https://groups.google.com/g/kilhonet>
+- Fórum: <https://kilho.top/forum/qna>
 - X (Twitter): <https://www.twitter.com/kilhonet>
 
 © KILHO.NET
