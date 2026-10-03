@@ -132,15 +132,6 @@ O idioma da interface segue o idioma de exibição do Windows (coreano · inglê
 
 O StayOn **não** se atualiza sozinho. Ao iniciar, verifica se há uma versão nova e mostra um aviso; ao pressionar **Yes**, a página de download é aberta e o programa é encerrado. As novas versões são publicadas manualmente após verificação interna e anunciadas na [página do StayOn](https://kilho.net/stayon). Veja o [aviso sobre a política de atualização](https://en.kilho.net/archives/notice/2940).
 
-**Histórico de versões**
-
-| Versão | Data | Mudanças |
-|---|---|---|
-| 2.0.0 | 2026-09-21 | Reformulação completa com estrutura mais leve e estável (reescrito em C); prevenção reforçada de apagamento da tela, suspensão e status "Ausente" do Teams; tamanho 100 / 200 / 400 %; posição e tamanho salvos automaticamente, melhor posicionamento em vários monitores |
-| 1.0.2 | 2024-11-25 | Corrigidos erros de Direct2D em alguns PCs; nitidez HiDPI aprimorada |
-| 1.0.1 | 2024-11-16 | Adicionados italiano, francês e russo |
-| 1.0.0 | 2024-11-03 | Avisos de atualização aprimorados; suporte multilíngue |
-
 ## Licença
 
 O StayOn é **freeware**. Use gratuitamente e sem restrições em qualquer lugar — empresa, casa, órgãos públicos, escola — e redistribua livremente.

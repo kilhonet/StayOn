@@ -130,15 +130,6 @@ The display language follows the Windows display language (Korean · English · 
 
 StayOn does **not** update itself. At launch it checks whether a new version exists and shows a notice; pressing **Yes** opens the download page and quits the program. New versions are released manually after internal verification and announced on the [StayOn page](https://kilho.net/stayon). See the [update policy notice](https://en.kilho.net/archives/notice/2940).
 
-**Version history**
-
-| Version | Date | Changes |
-|---|---|---|
-| 2.0.0 | 2026-09-21 | Completely refreshed for a lighter, more reliable experience (rewritten in C); stronger prevention of screen timeout, sleep and Teams "Away"; size 100 / 200 / 400 %; position and size saved automatically, better multi‑monitor placement |
-| 1.0.2 | 2024-11-25 | Fixed Direct2D errors on some PCs; sharper HiDPI rendering |
-| 1.0.1 | 2024-11-16 | Added Italian, French and Russian |
-| 1.0.0 | 2024-11-03 | Improved update notices; multilingual support |
-
 ## License
 
 StayOn is **freeware**. Use it anywhere — at the office, at home, in government offices, at school — free of charge and without restriction, and redistribute it freely.
