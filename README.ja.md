@@ -8,7 +8,6 @@
 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/stayon?lang=ja)
 
 ![StayOn 画面](images/stayon-ko.webp)

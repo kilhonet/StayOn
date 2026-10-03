@@ -8,7 +8,6 @@ English · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · [日�
 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/stayon?lang=en)
 
 ![StayOn screen](images/stayon-ko.webp)
