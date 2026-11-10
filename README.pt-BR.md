@@ -20,18 +20,20 @@ Você provavelmente já passou por isso: uma apresentação aberta, um download 
 
 O StayOn coloca um gatinho em pixel art no canto da área de trabalho. **Clique no gato dormindo e ele acorda**; enquanto o gato estiver acordado, a tela não apaga e o PC não entra em suspensão. Clique de novo e o gato volta a dormir; tudo retorna ao normal.
 
-As configurações de energia e suspensão do Windows não são tocadas. O efeito só existe enquanto o programa está em execução, e nada fica para trás ao sair ou reiniciar. Um único arquivo, com menos de 100 KB.
+As configurações de energia e suspensão do Windows não são tocadas. O efeito só existe enquanto o programa está em execução, e nada fica para trás ao sair ou reiniciar. Um único arquivo, com cerca de 100 KB.
 
 ## Principais recursos
 
-- **Um clique** — Clique no gato para ligar ou desligar a prevenção de suspensão. O menu do botão direito também funciona.
+- **Um clique** — Clique no gato para ligar ou desligar a prevenção de suspensão. O menu do botão direito e o ícone da área de notificação também funcionam.
+- **Ícone da área de notificação** — Colorido quando a prevenção de suspensão está ligada, cinza quando está desligada. Clique esquerdo liga ou desliga; clique direito abre o mesmo menu do gato.
 - **Impede o apagamento da tela, a suspensão e o bloqueio** — Protetor de tela, desligamento da tela, modo de suspensão e bloqueio automático não são acionados. Também impede que mensageiros como o Teams mostrem você como "Ausente".
 - **Sem alterar as configurações do Windows** — Opções de energia e políticas de grupo ficam intactas. Não precisa de permissão de administrador.
 - **Um gato para colocar onde quiser** — Arraste-o para onde preferir; a posição é lembrada. Ele não sai da tela.
-- **Tamanho 100 % · 200 % · 400 %** — Escolha o tamanho do gato conforme o monitor. Nítido até em telas de alta resolução (HiDPI).
-- **Executar ao iniciar** — O gato aparece junto com o Windows (versão com instalador).
-- **Leve e simples** — Reescrito em C: executável de 83 KB, sem assistente de instalação nem janela de configurações. Sempre no topo, mas nunca na barra de tarefas ou na lista Alt+Tab.
-- **7 idiomas** — Coreano · inglês · japonês · chinês · russo · italiano · francês. Segue o idioma de exibição do Windows.
+- **Tamanho 100 % · 200 % · 400 %** — Escolha o tamanho do gato conforme o monitor. Nítido até em telas de alta resolução (HiDPI). Também dá para esconder o gato e usar só o ícone da área de notificação.
+- **Tempo desde a inicialização** — Mostra na barra de tarefas o tempo decorrido desde que o PC foi ligado, como um relógio de LED. 8 cores à escolha.
+- **Executar ao iniciar** — O gato aparece 3 minutos após o logon (versão com instalador).
+- **Leve e simples** — Reescrito em C: executável de cerca de 100 KB, sem assistente de instalação nem janela de configurações. Sempre no topo, mas nunca na barra de tarefas ou na lista Alt+Tab.
+- **7 idiomas** — Coreano · inglês · japonês · chinês · russo · italiano · francês. Segue o formato regional do Windows.
 
 ## Download / Instalação
 
@@ -57,18 +59,20 @@ Ao iniciar o programa, o gato **sempre começa dormindo**. Mesmo que você o ten
 
 ### Organização da tela
 
-Não há janela nem tela de configurações: só o gato e o seu **menu do botão direito**.
+Não há janela nem tela de configurações: só o gato, o ícone da área de notificação e o **menu do botão direito**.
 
 | Menu | O que faz |
 |---|---|
 | **Run** / **Stop** | Liga/desliga a prevenção de suspensão — o mesmo que clicar no gato |
-| **Size** › 100% · 200% · 400% | Tamanho do gato. Padrão 200% |
+| **Cat size** › 100% · 200% · 400% · Hide | Tamanho do gato. Padrão 200%. **Hide** esconde o gato e deixa só o ícone da área de notificação |
+| **Uptime** › 8 cores · Hide | Mostra na barra de tarefas o tempo desde a inicialização. Padrão Hide |
 | **Run at boot** (marcado) | Início automático com o Windows (versão com instalador) |
 | **Crafted by Kilho** | Abrir o site |
 | **Exit** | Encerrar o programa — a prevenção de suspensão também é desligada |
 
 - **Gato dormindo** = prevenção desligada, **gato acordado** = prevenção ligada. Não precisa de outro indicador: o gato mostra.
 - **Arrastar para mover** — Segure o gato e arraste. Um movimento mínimo conta como clique.
+- **Ícone da área de notificação** — O clique esquerdo é o mesmo que clicar no gato; o clique direito abre o mesmo menu.
 
 ### O que fazer quando…
 
@@ -86,16 +90,21 @@ O StayOn não altera as configurações do Windows nem usa permissão de adminis
 
 **O gato atrapalha**
 - **Arraste-o** para onde quiser. A posição é lembrada.
-- Botão direito → **Size** → **100%** e ele quase não aparece.
+- Botão direito → **Cat size** → **100%** e ele quase não aparece.
+- Botão direito → **Cat size** → **Hide**: o gato some e fica só o ícone da área de notificação. Na próxima vez ele também começa escondido; clique com o botão direito no ícone e escolha um tamanho para ele voltar.
 - O gato não pode ser empurrado para fora da tela; ele para na borda do monitor.
 
 **O gato é pequeno demais (monitor 4K etc.)**
-Botão direito → **Size** → **400%**. O valor é multiplicado pela escala do Windows, então fica nítido em qualquer resolução.
+Botão direito → **Cat size** → **400%**. O valor é multiplicado pela escala do Windows, então fica nítido em qualquer resolução.
 
 **Fazer o gato aparecer sempre que o PC liga**
-Na versão com instalador, botão direito → marque **Run at boot**. A partir da próxima inicialização, o gato aparece dormindo após o logon. Na versão portátil esse item fica bloqueado — use a versão com instalador.
+Na versão com instalador, botão direito → marque **Run at boot**. A partir da próxima inicialização, o gato aparece dormindo 3 minutos após o logon. Na versão portátil esse item fica bloqueado — use a versão com instalador.
+
+**Ver há quanto tempo o PC está ligado**
+Botão direito → **Uptime** → escolha uma cor e a barra de tarefas mostra o tempo como `35:59` (35 horas e 59 minutos). Clique nos números para ligar ou desligar a prevenção de suspensão; o botão direito abre o menu.
 
 **Não vejo o gato**
+- Se **Cat size** estiver em **Hide**, clique com o botão direito no ícone da área de notificação e escolha um tamanho.
 - Se já estiver em execução, abrir de novo não faz nada (só um gato por vez). Verifique os cantos da tela e os outros monitores.
 - Se a configuração de monitores mudou e a posição salva ficou fora da tela, ele volta automaticamente à posição padrão (canto inferior direito do monitor principal).
 
@@ -114,12 +123,13 @@ Não há janela de configurações; tudo é alterado no menu do botão direito e
 
 | Item | Padrão |
 |---|---|
-| Size | 200% |
+| Cat size | 200% |
 | Posição do gato | Canto inferior direito do monitor principal (acima da barra de tarefas) |
-| Run at boot | Desligado |
+| Uptime | Hide |
+| Run at boot | Ligado (versão com instalador) |
 | Estado da prevenção de suspensão | Não é salvo — sempre começa dormindo |
 
-O idioma da interface segue o idioma de exibição do Windows (coreano · inglês · japonês · chinês · russo · italiano · francês; nos demais casos, inglês).
+O idioma da interface segue o formato regional do Windows (coreano · inglês · japonês · chinês · russo · italiano · francês; nos demais casos, inglês).
 
 ## Requisitos
 

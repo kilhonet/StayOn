@@ -18,18 +18,20 @@ You've probably had it happen: a presentation is up, a long download is running,
 
 StayOn puts a small pixel‑art cat in the corner of your desktop. **Click the sleeping cat and it wakes up**; while the cat is awake, the screen won't turn off and the PC won't go to sleep. Click again and the cat goes back to sleep, and everything returns to normal.
 
-Windows power and sleep settings are never touched. It only has an effect while it is running, and leaves no trace when you quit or reboot. It is a single file under 100 KB.
+Windows power and sleep settings are never touched. It only has an effect while it is running, and leaves no trace when you quit or reboot. It is a single file of about 100 KB.
 
 ## Features
 
-- **One click** — Click the cat to turn sleep prevention on or off. The right‑click menu works too.
+- **One click** — Click the cat to turn sleep prevention on or off. The right‑click menu and the notification area icon work too.
+- **Notification area icon** — In color while sleep prevention is on, gray while it is off. Left‑click turns it on or off; right‑click opens the same menu as the cat.
 - **Prevents screen‑off, sleep and lock** — The screen saver, screen timeout, sleep mode and auto‑lock don't kick in. It also keeps messengers such as Teams from showing you as "Away".
 - **No Windows settings changed** — Power options and group policies are left alone. No administrator rights needed.
 - **A cat you can put anywhere** — Drag it where you like; the position is remembered. It can't leave the screen.
-- **Size 100 % · 200 % · 400 %** — Pick a cat size to suit your monitor. Crisp on high‑resolution (HiDPI) displays too.
-- **Run at boot** — The cat appears when Windows starts (installer version).
-- **Light and simple** — Rewritten in C: an 83 KB executable, no setup or settings window. Always on top, yet never in the taskbar or the Alt+Tab list.
-- **7 languages** — Korean · English · Japanese · Chinese · Russian · Italian · French, following the Windows display language.
+- **Cat size 100 % · 200 % · 400 %** — Pick a cat size to suit your monitor. Crisp on high‑resolution (HiDPI) displays too. You can also hide the cat and use only the notification area icon.
+- **Uptime** — Shows the time since boot on the taskbar like an LED clock, in one of 8 colors.
+- **Run at boot** — The cat appears 3 minutes after you log on (installer version).
+- **Light and simple** — Rewritten in C: an executable of about 100 KB, no setup or settings window. Always on top, yet never in the taskbar or the Alt+Tab list.
+- **7 languages** — Korean · English · Japanese · Chinese · Russian · Italian · French, following the Windows regional format.
 
 ## Download / Installation
 
@@ -55,18 +57,20 @@ The cat **always starts asleep** when the program launches. Even if you left it 
 
 ### Screen layout
 
-There is no window or settings screen — just the cat and its **right‑click menu**.
+There is no window or settings screen — just the cat, the notification area icon and the **right‑click menu**.
 
 | Menu | What it does |
 |---|---|
 | **Run** / **Stop** | Turn sleep prevention on/off — same as clicking the cat |
-| **Size** › 100% · 200% · 400% | Cat size. Default is 200% |
+| **Cat size** › 100% · 200% · 400% · Hide | Cat size. Default is 200%. **Hide** hides the cat and keeps only the notification area icon |
+| **Uptime** › 8 colors · Hide | Shows the time since boot on the taskbar. Default is Hide |
 | **Run at boot** (check) | Start automatically with Windows (installer version) |
 | **Crafted by Kilho** | Open the website |
 | **Exit** | Quit the program — sleep prevention turns off too |
 
 - **Sleeping cat** = sleep prevention off, **awake cat** = sleep prevention on. No separate indicator needed; the cat tells you.
 - **Drag to move** — Press and drag the cat to move it. A tiny movement counts as a click.
+- **Notification area icon** — Left‑click is the same as clicking the cat; right‑click opens the same menu.
 
 ### How do I…
 
@@ -84,16 +88,21 @@ StayOn doesn't change Windows settings and doesn't use administrator rights. Eve
 
 **The cat gets in the way**
 - **Drag** it wherever you like. The position is remembered.
-- Right‑click → **Size** → **100%** makes it barely noticeable.
+- Right‑click → **Cat size** → **100%** makes it barely noticeable.
+- Right‑click → **Cat size** → **Hide** removes the cat and keeps only the notification area icon. It also starts hidden next time; right‑click the icon and pick a size to bring the cat back.
 - The cat can't be pushed off the screen; it stops at the monitor edge.
 
 **The cat is too small (4K monitor, etc.)**
-Right‑click → **Size** → **400%**. It is multiplied by the Windows scaling setting, so it stays crisp at any resolution.
+Right‑click → **Cat size** → **400%**. It is multiplied by the Windows scaling setting, so it stays crisp at any resolution.
 
 **Have the cat appear every time the PC starts**
-In the installer version, right‑click → check **Run at boot**. From the next boot, the cat appears asleep after logon. In the portable version this item is locked — use the installer version.
+In the installer version, right‑click → check **Run at boot**. From the next boot, the cat appears asleep 3 minutes after logon. In the portable version this item is locked — use the installer version.
+
+**See how long the PC has been on**
+Right‑click → **Uptime** → pick a color, and the taskbar shows the time like `35:59` (35 hours 59 minutes). Click the digits to turn sleep prevention on or off; right‑click them for the menu.
 
 **I can't see the cat**
+- If **Cat size** is set to **Hide**, right‑click the notification area icon and pick a size.
 - If it is already running, launching it a second time does nothing (only one cat at a time). Check the screen corners and other monitors.
 - If your monitor setup changed and the saved position is now off‑screen, it returns automatically to the default position (bottom right of the main monitor).
 
@@ -112,12 +121,13 @@ There is no settings window; everything is changed from the right‑click menu a
 
 | Item | Default |
 |---|---|
-| Size | 200% |
+| Cat size | 200% |
 | Cat position | Bottom right of the main monitor (above the taskbar) |
-| Run at boot | Off |
+| Uptime | Hide |
+| Run at boot | On (installer version) |
 | Sleep‑prevention state | Not saved — always starts asleep |
 
-The display language follows the Windows display language (Korean · English · Japanese · Chinese · Russian · Italian · French; otherwise English).
+The display language follows the Windows regional format (Korean · English · Japanese · Chinese · Russian · Italian · French; otherwise English).
 
 ## Requirements
 

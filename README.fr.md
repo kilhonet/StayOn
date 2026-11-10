@@ -18,18 +18,20 @@ Cela vous est sûrement déjà arrivé : une présentation est affichée, un lon
 
 StayOn place un petit chat en pixel art dans un coin du bureau. **Cliquez sur le chat endormi et il se réveille** ; tant qu'il est éveillé, l'écran ne s'éteint pas et le PC ne se met pas en veille. Cliquez à nouveau : le chat se rendort et tout revient à la normale.
 
-Les paramètres d'alimentation et de veille de Windows ne sont jamais modifiés. L'effet ne dure que pendant l'exécution du programme, et il ne laisse aucune trace après la fermeture ou un redémarrage. Un seul fichier, moins de 100 Ko.
+Les paramètres d'alimentation et de veille de Windows ne sont jamais modifiés. L'effet ne dure que pendant l'exécution du programme, et il ne laisse aucune trace après la fermeture ou un redémarrage. Un seul fichier d'environ 100 Ko.
 
 ## Fonctionnalités
 
-- **Un seul clic** — Cliquez sur le chat pour activer ou désactiver l'anti‑veille. Le menu contextuel fonctionne aussi.
+- **Un seul clic** — Cliquez sur le chat pour activer ou désactiver l'anti‑veille. Le menu contextuel et l'icône de la zone de notification fonctionnent aussi.
+- **Icône de la zone de notification** — En couleur quand l'anti‑veille est actif, grise quand il est désactivé. Clic gauche pour activer ou désactiver, clic droit pour ouvrir le même menu que le chat.
 - **Empêche l'extinction de l'écran, la veille et le verrouillage** — L'économiseur d'écran, l'extinction de l'écran, le mode veille et le verrouillage automatique ne se déclenchent pas. Empêche aussi les messageries comme Teams de vous afficher « Absent ».
 - **Aucune modification des paramètres Windows** — Les options d'alimentation et les stratégies de groupe restent intactes. Aucun droit d'administrateur nécessaire.
 - **Un chat à placer où vous voulez** — Faites‑le glisser où bon vous semble ; la position est mémorisée. Il ne peut pas sortir de l'écran.
-- **Taille 100 % · 200 % · 400 %** — Choisissez la taille du chat selon votre moniteur. Net même sur les écrans haute résolution (HiDPI).
-- **Lancer au démarrage** — Le chat apparaît dès le démarrage de Windows (version avec installateur).
-- **Léger et simple** — Réécrit en C : un exécutable de 83 Ko, sans assistant d'installation ni fenêtre de réglages. Toujours au premier plan, mais jamais dans la barre des tâches ni dans la liste Alt+Tab.
-- **7 langues** — Coréen · anglais · japonais · chinois · russe · italien · français. Suit la langue d'affichage de Windows.
+- **Taille du chat 100 % · 200 % · 400 %** — Choisissez la taille du chat selon votre moniteur. Net même sur les écrans haute résolution (HiDPI). Vous pouvez aussi masquer le chat et n'utiliser que l'icône de la zone de notification.
+- **Temps de fonctionnement** — Affiche dans la barre des tâches le temps écoulé depuis le démarrage, comme une horloge à LED. 8 couleurs au choix.
+- **Lancer au démarrage** — Le chat apparaît 3 minutes après l'ouverture de session (version avec installateur).
+- **Léger et simple** — Réécrit en C : un exécutable d'environ 100 Ko, sans assistant d'installation ni fenêtre de réglages. Toujours au premier plan, mais jamais dans la barre des tâches ni dans la liste Alt+Tab.
+- **7 langues** — Coréen · anglais · japonais · chinois · russe · italien · français. Suit le format régional de Windows.
 
 ## Téléchargement / Installation
 
@@ -55,18 +57,20 @@ Au lancement du programme, le chat **commence toujours endormi**. Même si vous 
 
 ### Organisation de l'écran
 
-Pas de fenêtre ni d'écran de réglages : seulement le chat et son **menu contextuel** (clic droit).
+Pas de fenêtre ni d'écran de réglages : seulement le chat, l'icône de la zone de notification et le **menu contextuel** (clic droit).
 
 | Menu | Rôle |
 |---|---|
 | **Exécuter** / **Arrêter** | Activer/désactiver l'anti‑veille — identique à un clic sur le chat |
-| **Taille** › 100% · 200% · 400% | Taille du chat. 200 % par défaut |
+| **Taille du chat** › 100% · 200% · 400% · Masquer | Taille du chat. 200 % par défaut. **Masquer** cache le chat et ne garde que l'icône de la zone de notification |
+| **Temps de fonctionnement** › 8 couleurs · Masquer | Affiche dans la barre des tâches le temps écoulé depuis le démarrage. Masquer par défaut |
 | **Lancer au démarrage** (coché) | Démarrage automatique avec Windows (version avec installateur) |
 | **Créé par Kilho** | Ouvrir le site web |
 | **Quitter** | Fermer le programme — l'anti‑veille se désactive aussi |
 
 - **Chat endormi** = anti‑veille désactivé, **chat éveillé** = anti‑veille activé. Pas besoin d'autre indicateur : le chat suffit.
 - **Glisser pour déplacer** — Maintenez le clic sur le chat et faites‑le glisser. Un tout petit mouvement compte comme un clic.
+- **Icône de la zone de notification** — Le clic gauche équivaut à un clic sur le chat ; le clic droit ouvre le même menu.
 
 ### Que faire quand…
 
@@ -84,16 +88,21 @@ StayOn ne modifie pas les paramètres Windows et n'utilise pas de droits d'admin
 
 **Le chat me gêne**
 - **Faites‑le glisser** où vous voulez. La position est mémorisée.
-- Clic droit → **Taille** → **100%** : il se fait presque oublier.
+- Clic droit → **Taille du chat** → **100%** : il se fait presque oublier.
+- Clic droit → **Taille du chat** → **Masquer** : le chat disparaît et seule l'icône de la zone de notification reste. Il démarre aussi masqué la fois suivante ; faites un clic droit sur l'icône et choisissez une taille pour le faire revenir.
 - Le chat ne peut pas être poussé hors de l'écran ; il s'arrête au bord du moniteur.
 
 **Le chat est trop petit (moniteur 4K, etc.)**
-Clic droit → **Taille** → **400%**. La valeur est multipliée par la mise à l'échelle de Windows, il reste donc net à toute résolution.
+Clic droit → **Taille du chat** → **400%**. La valeur est multipliée par la mise à l'échelle de Windows, il reste donc net à toute résolution.
 
 **Faire apparaître le chat à chaque démarrage du PC**
-Dans la version avec installateur, clic droit → cochez **Lancer au démarrage**. Dès le prochain démarrage, le chat apparaît endormi après l'ouverture de session. Dans la version portable, cet élément est verrouillé : utilisez la version avec installateur.
+Dans la version avec installateur, clic droit → cochez **Lancer au démarrage**. Dès le prochain démarrage, le chat apparaît endormi 3 minutes après l'ouverture de session. Dans la version portable, cet élément est verrouillé : utilisez la version avec installateur.
+
+**Voir depuis combien de temps le PC est allumé**
+Clic droit → **Temps de fonctionnement** → choisissez une couleur : la barre des tâches affiche le temps sous la forme `35:59` (35 heures 59 minutes). Cliquez sur les chiffres pour activer ou désactiver l'anti‑veille ; clic droit pour le menu.
 
 **Je ne vois pas le chat**
+- Si **Taille du chat** est réglé sur **Masquer**, faites un clic droit sur l'icône de la zone de notification et choisissez une taille.
 - S'il est déjà lancé, un second lancement ne fait rien (un seul chat à la fois). Regardez dans les coins de l'écran et sur les autres moniteurs.
 - Si votre configuration d'écrans a changé et que la position enregistrée est désormais hors écran, il revient automatiquement à la position par défaut (en bas à droite du moniteur principal).
 
@@ -112,12 +121,13 @@ Pas de fenêtre de réglages : tout se change dans le menu contextuel et s'enreg
 
 | Élément | Par défaut |
 |---|---|
-| Taille | 200% |
+| Taille du chat | 200% |
 | Position du chat | En bas à droite du moniteur principal (au‑dessus de la barre des tâches) |
-| Lancer au démarrage | Désactivé |
+| Temps de fonctionnement | Masquer |
+| Lancer au démarrage | Activé (version avec installateur) |
 | État de l'anti‑veille | Non enregistré — démarre toujours endormi |
 
-La langue de l'interface suit la langue d'affichage de Windows (coréen · anglais · japonais · chinois · russe · italien · français ; sinon, anglais).
+La langue de l'interface suit le format régional de Windows (coréen · anglais · japonais · chinois · russe · italien · français ; sinon, anglais).
 
 ## Configuration requise
 
